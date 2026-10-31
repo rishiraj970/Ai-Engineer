@@ -1,0 +1,19 @@
+[project]
+name = "ai-company-brochure"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rishiraj Singh", email = "your_github_email_here" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ollama>=0.6.3",
+]
+
+[project.scripts]
+ai-company-brochure = "ai_company_brochure:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
